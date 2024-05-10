@@ -15,7 +15,11 @@ article {
     padding: 20px;
     margin: 0 auto;
     max-width: 840px;
-    padding-right: 40px;
+    padding: 30px;
+}
+
+article p {
+    text-align: justify;
 }
 
 h2.titulo {
@@ -30,6 +34,8 @@ figcaption {
     font-style: italic;
     font-size: 0.8em;
     color: #666;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .contenido {
