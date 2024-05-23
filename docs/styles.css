@@ -90,6 +90,11 @@ header p {
   box-shadow: 6px 6px 13px 0px rgba(0,0,0,0.41);
   -webkit-box-shadow: 6px 6px 13px 0px rgba(0,0,0,0.41);
   -moz-box-shadow: 6px 6px 13px 0px rgba(0,0,0,0.41);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+	transform: translateY(-5px);
 }
 
 .card-content {

@@ -33,3 +33,9 @@
 - **Tarea:** Modificar la web del portal de noticias de clases anteriores para que se apliquen estilos diferentes con Media Queries, sin flexbox y con position absolute o relative.
 - **Logros:**
     - Obtenida una web con nav adaptable a la pantalla
+
+### Clase 6:
+- **Objetivo:** Aprender a utilizar flexbox y diseño responsive mobile-first
+- **Tarea:** Crear un portal de noticias original responsive utilizando flexbox y mobile-first
+- **Logros:**
+    - Creado el portal NexoNoticias
