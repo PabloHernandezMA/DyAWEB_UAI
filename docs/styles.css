@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header p {
+    font-size: 20px;
+}
+
+.button-icon {
+    margin: 20px 0px 0px 20px;
+    display: flex;
+    border: 3px #fff solid;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    border-color: #222229;
+  }
+  
+  .icon {
+    background-color: #fff;
+    padding: 10px 10px 5px 10px;
+  }
+  
+  .icon svg {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .cube {
+    transition: all 0.4s;
+    transform-style: preserve-3d;
+    width: 200px;
+    height: 20px;
+  }
+  
+  .button-icon:hover .cube {
+    transform: rotateX(90deg);
+  }
+  
+  .side {
+    position: absolute;
+    height: 47px;
+    width: 200px;
+    display: flex;
+    font-size: 0.8em;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+  }
+  
+  .top {
+    background: #222229;
+    color: #fff;
+    transform: rotateX(-90deg) translate3d(0, 13.5px, 2em);
+  }
+  
+  .front {
+    background: #222229;
+    color: #fff;
+    transform: translate3d(0, 0, 1em);
+  }
+
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: stretch;
+  gap: 15px 15px; /* row-gap column gap */
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px; /* Ancho fijo para cada tarjeta */
+  box-shadow: 6px 6px 13px 0px rgba(0,0,0,0.41);
+  -webkit-box-shadow: 6px 6px 13px 0px rgba(0,0,0,0.41);
+  -moz-box-shadow: 6px 6px 13px 0px rgba(0,0,0,0.41);
+}
+
+.card-content {
+  padding: 25px;
+  background-image: linear-gradient(to bottom right, #252525, #4a4a4a);
+  height: 180px;
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #eee;
+}
+
+.card p {
+  margin-bottom: 0;
+  color: #dcdcdcdd;
+}
+
+.card-link {
+  padding: 15px;
+  background-image: linear-gradient(to bottom right, #00bfad, #99a3d4);
+  border-top: 1px solid #cfcfcf;
+  text-align: right;
+}
+
+.card a {
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+}
+
+.card a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px; /* Ajusta el grosor del subrayado según sea necesario */
+  left: 0;
+  width: 0;
+  height: 2px; /* Grosor del subrayado */
+  background-color: #ffffff; /* Color del subrayado */
+  transition: width 0.3s ease; /* Transición animada */
+}
+
+.card a:hover::after {
+  width: 100%;
+}
+
+.alert-sign {
+    color: #ffff00;
+}
+
+.alert {
+    font-weight: bold;
+}
+
+
+
+#boogle .card-content{
+    background-image: linear-gradient(to bottom right, #ec407b, #ff7d94);
+}
+#boogle *{
+    color: #fff;
+}
