@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+header {
+  padding: 30px;
+}
+textarea {
+  width: 100%;
+}
+
+.section-botones {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  padding: 0px 30px;
+}
+
+.section-botones button {
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 24px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+/* Botón primario */
+.btn-primario {
+  background-color: #007bff;
+  color: #fff;
+  border: 2px solid #007bff;
+}
+
+.btn-primario:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Botón de acción */
+#btn-ejecutar {
+  background-color: #28a745;
+  color: #fff;
+  border: 2px solid #28a745;
+}
+
+#btn-ejecutar:hover {
+  background-color: #218838;
+  border-color: #218838;
+}
+
+.section-contenedor {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 30px 30px;
+  justify-content: space-around;
+  align-items: stretch;
+  padding: 30px;
+}
+
+.div-consigna {
+  flex: 1 1 40%;
+  padding-bottom: 50px;
+}
+
+#textarea-consigna {
+    padding: 10px;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.div-contenedor {
+  flex: 1 1 50%;
+  display: flex;
+  flex-flow: column;
+}
+
+.div-codigo textarea{
+    padding: 0px 10px;
+    font-size: 16px;
+    height: 500px;
+    background-color: rgb(35, 35, 35);
+    color: #fff;
+    font-family: Consolas, "Courier New", monospace;
+}
+
+.div-consola textarea{
+    padding: 0px 10px;
+    font-size: 16px;
+    height: 170px;
+    background-color: black;
+    color: #fff;
+    font-family: Consolas, "Courier New", monospace;
+}
