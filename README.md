@@ -39,3 +39,18 @@
 - **Tarea:** Crear un portal de noticias original responsive utilizando flexbox y mobile-first
 - **Logros:**
     - Creado el portal NexoNoticias
+
+### Clase 7:
+- Realizado el parcial 1
+
+### Clase 8:
+- **Objetivo:** Aprender JS
+- **Tarea:** Resolver ejercicios de JS.
+- **Logros:**
+    - Creado un index.html que ejecuta varios scripts que muestran mensajes por consola y por ventanas alert.
+
+### Clase 9:
+- **Objetivo:** Aprender a modificar el DOM con JS
+- **Tarea:** Crear una lista de tareas dinamica, donde se pueda agregar elementos con un formulario html y js.
+- **Logros:**
+    - Creada una lista de tareas dinamica donde se pueden agregar y eliminar elementos
