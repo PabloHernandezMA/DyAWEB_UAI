@@ -1,7 +1,7 @@
 # Registro de Progreso - Curso de Desarrollo Web
 
 ## Alumno: Pablo Hernandez
-## Versión del Registro: 5.0
+## Versión del Registro: 9.0
 
 ### Clase 1:
 - **Objetivo:** Aprender a utilizar Git y GitHub.
@@ -51,6 +51,7 @@
 
 ### Clase 9:
 - **Objetivo:** Aprender a modificar el DOM con JS
-- **Tarea:** Crear una lista de tareas dinamica, donde se pueda agregar elementos con un formulario html y js.
+- **Tarea:** Agregar al proyecto de clase 6 un formulario de suscripcion con validaciones hechas con JS.
 - **Logros:**
-    - Creada una lista de tareas dinamica donde se pueden agregar y eliminar elementos
+    - Creada una lista de tareas dinamica donde se pueden agregar y eliminar elementos (Ejercicio de clase)
+    - Añadido boton de suscripcion a la pagina de inicio del portal de noticias. Al pulsarlo te lleva al formulario de suscripcion (Tarea)
