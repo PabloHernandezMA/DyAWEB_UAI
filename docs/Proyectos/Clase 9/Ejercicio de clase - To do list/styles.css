@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 20px;
+}
+
+form {
+    margin-top: 25px;
+}
+
+ul{
+    padding: 20px;
+}
+
+li {
+    margin-top: 15px;
+}
+
+.eliminarBtn {
+    padding: 5px;
+    margin-left: 10px;
+}

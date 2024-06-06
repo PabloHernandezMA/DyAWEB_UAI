@@ -115,9 +115,10 @@ header p {
 
 .card-link {
   padding: 15px;
-  background-image: linear-gradient(to bottom right, #00bfad, #99a3d4);
+  background-color: rgb(51, 176, 211);
   border-top: 1px solid #cfcfcf;
-  text-align: right;
+  display: flex;
+  justify-content: space-around;
 }
 
 .card a {
