@@ -1,0 +1,147 @@
+/* <footer>
+      <div class="div-logo-footer">
+        <a href="index.html"
+          ><img src="./Recursos/logo-sin-fondo.png" alt="Logo NexoNoticias"
+        /></a>
+      </div>
+      <div class="div-weblinks-footer"></div>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Sobre nosotros</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li><a href="#">Trabaja con nosotros</a></li>
+      </ul>
+      <div class="div-socialmedialinks-footer">
+        <p>Síguenos en nuestras redes sociales:</p>
+        <a href="https://www.facebook.com" target="_blank"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a href="https://www.twitter.com" target="_blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://www.instagram.com" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+      <div class="div-legal-footer">
+        <a href="#">Politica de privacidad</a>
+        <p>&copy; 2024 NexoNoticias. Todos los derechos reservados.</p>
+      </div>
+    </footer> */
+footer {
+    align-self: flex-end;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(34, 34, 34);
+}
+
+footer a:hover {
+    color: rgb(13, 149, 232);
+}
+
+.div-logo-footer img{
+    height: 120px;
+    width: 120px;
+}
+
+.div-weblinks-footer{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.div-socialmedialinks-footer{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.div-legal-footer{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+}
+
+.div-weblinks-footer a {
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+}
+
+.div-legal-footer a {
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icon {
+    text-decoration: none;
+    font-size: 1.5em;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.social-icon i {
+    color: white;
+}
+
+.social-icon.facebook {
+    background-color: #3b5998;
+}
+
+.social-icon.instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.social-icon.twitter {
+    background-color: #1DA1F2;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+.social-icon.facebook:hover {
+    background-color: #2d4373;
+}
+
+.social-icon.instagram:hover {
+    background: radial-gradient(circle at 30% 107%, #ffdc80 0%, #ffdc80 5%, #fa7e1e 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.social-icon.twitter:hover {
+    background-color: #0d95e8;
+}
+
+@media screen and (min-width: 730px) {
+    footer {
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    
+    .div-legal-footer{
+        flex: 1 1 100%;
+        border-top: 1px solid rgb(75, 75, 75);
+        padding: 15px;
+    }
+    .div-weblinks-footer a {
+        display: block;
+    }
+    
+  }

@@ -1,0 +1,180 @@
+main {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 15px;
+  
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+.section-filtros {
+  flex: 1 1 100%;
+  padding: 5px;
+  background-color: rgb(51, 51, 51);
+  order: 2;
+}
+.section-noticias {
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 20px 20px;
+  flex: 1 1 100%;
+  align-items: center;
+  order: 3;
+}
+aside {
+  flex: 1 1 100%;
+  padding: 10px 10px 10px 10px;
+  order: 1;
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
+}
+
+.section-clima {
+  text-align: center;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 8px;
+  background-color: rgb(172, 172, 172);
+}
+
+/* Estilos para el formulario de búsqueda */
+#search-form {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px 10px;
+  align-items: center;
+  border-radius: 8px;
+}
+
+/* Estilos para el campo de búsqueda */
+#search-query {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #555;
+  color: #fff;
+  font-size: 16px;
+}
+
+/* Estilos para los selectores de categoría y región */
+#category,
+#region {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #555;
+  color: #fff;
+  font-size: 16px;
+  width: 200px;
+}
+
+/* Estilos para el botón de búsqueda */
+button[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(197, 83, 2);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  flex: 1 1 100%;
+}
+
+/* Estilos cuando se pasa el mouse sobre el botón */
+button[type="submit"]:hover {
+  background-color: rgb(182, 75, 9);
+}
+
+.section-noticias article {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  width: 300px; /* Ancho fijo de cada tarjeta */
+}
+
+.section-noticias article:hover {
+  transform: translateY(-5px);
+}
+
+.section-noticias article img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+.section-noticias article h3 {
+  font-size: 1.5rem;
+  margin: 5px;
+}
+
+.section-noticias article p {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 5px;
+  overflow: hidden;
+  height: 50px;
+}
+
+.section-noticias article a {
+  display: block;
+  background-color: #4caf50;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 0;
+  font-weight: bold;
+  border-radius: 0 0 8px 8px;
+  transition: background-color 0.3s ease;
+}
+
+.section-noticias article a:hover {
+  background-color: #45a049;
+}
+@media screen and (min-width: 800px) {
+  aside {
+    flex: 0 0 15%;
+    padding: 10px 10px 10px 0px;
+    order: 3;
+  }
+
+  .section-filtros {
+    order: 1;
+  }
+
+  .section-noticias {
+    order: 2;
+    padding: 10px 10px 10px 10px;
+    flex-flow: row wrap;
+    gap: 20px 20px;
+    flex: 1 1 70%;
+  }
+
+  .section-clima {
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    background-color: rgb(172, 172, 172);
+  }
+
+  button[type="submit"] {
+    flex: auto;
+  }
+}
+
+.button-suscribe {
+  text-align: center;
+  font-weight: bold; /* Texto en negrita */
+  padding: 5px; /* Espacio interno del botón */
+  border: 3px solid rgb(129, 4, 4); /* Establecer un borde transparente */
+  text-decoration: none;
+  color: white;
+  background: rgb(95, 13, 49);
+}
+
+.button-suscribe:hover {
+  text-decoration: underline;
+  background: rgb(168, 36, 93);
+}
