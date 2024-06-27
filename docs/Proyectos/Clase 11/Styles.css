@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.filters {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.filters label,
+.filters input {
+  margin: 5px;
+}
+
+#characters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 10px 10px;
+}
+
+.character {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 7px 7px 8px 0px rgba(0, 0, 0, 0.41);
+  -moz-box-shadow: 0px 10px 13px 0px rgba(0, 0, 0, 0.41);
+  transition: transform 0.3s ease;
+}
+
+.character:hover {
+  transform: translateY(-5px);
+}
+
+button {
+  margin: 5px;
+  padding: 3px;
+}
+
+img {
+  width: 150px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+#result-control {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}

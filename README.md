@@ -1,7 +1,7 @@
 # Registro de Progreso - Curso de Desarrollo Web
 
 ## Alumno: Pablo Hernandez
-## Versión del Registro: 9.0
+## Versión del Registro: 11.0
 
 ### Clase 1:
 - **Objetivo:** Aprender a utilizar Git y GitHub.
@@ -55,3 +55,16 @@
 - **Logros:**
     - Creada una lista de tareas dinamica donde se pueden agregar y eliminar elementos (Ejercicio de clase)
     - Añadido boton de suscripcion a la pagina de inicio del portal de noticias. Al pulsarlo te lleva al formulario de suscripcion (Tarea)
+
+### Clase 10:
+- **Tarea:** Formulario comunicado con servidor usando metodos POST y GET
+- **Logros:**
+    - Agregado formulario de suscripcion
+    - Comunicacion exitosa de envio y respuesta con servidor
+
+### Clase 11:
+- **Objetivo:** API REST
+- **Tarea:** Consultar una api de personajes de la serie rick&morty
+- **Logros:**
+    - Comunicacion con la API
+    - Paginacion de resultados

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personajes Rick and Morty</title>
+    <link
+      rel="stylesheet"
+      href="../../Proyectos/Clase 4/estilos/normalize.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Personajes Rick and Morty</h1>
+    </header>
+    <main>
+      <h2>Buscador de personajes</h2>
+      <div class="filters">
+        <label for="name">Name (nombre):</label>
+        <input type="text" id="name" />
+        <label for="status">Status (estado):</label>
+        <input type="text" id="status" />
+        <label for="species">Species (especie):</label>
+        <input type="text" id="species" />
+        <label for="type">Type (tipo):</label>
+        <input type="text" id="type" />
+        <label for="gender">Gender (género):</label>
+        <input type="text" id="gender" />
+        <button id="getAllCharacters">Buscar todos los personajes</button>
+        <button id="getFilteredCharacters">
+          Buscar personajes con filtros
+        </button>
+      </div>
+      <div id="result-info-count"></div>
+      <div id="characters"></div>
+      <div id="result-control">
+        <button id="prevPage" disabled>Anterior</button>
+        <div id="result-info-page"></div>
+        <button id="nextPage" disabled>Siguiente</button>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; Pablo Hernandez DyAWEB 2024</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
